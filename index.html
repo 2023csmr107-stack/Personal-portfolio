@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinath | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Jinka Obul Srinath</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h2>Hello, I'm Srinath</h2>
+            <p>Frontend Developer</p>
+            <button onclick="showMessage()">View Profile</button>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a B.Tech student interested in Frontend Development.
+                I enjoy creating responsive and user-friendly websites.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <article>
+                <h3>Responsive Web Interface</h3>
+                <p>
+                    A responsive website created using HTML, CSS and JavaScript.
+                </p>
+            </article>
+
+            <article>
+                <h3>Sales Performance Dashboard</h3>
+                <p>
+                    An interactive dashboard created using Power BI.
+                </p>
+            </article>
+
+            <article>
+                <h3>Customer Churn Analysis</h3>
+                <p>
+                    Data analysis project using Python and SQL.
+                </p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form onsubmit="validateForm(event)">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <textarea id="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Jinka Obul Srinath</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
